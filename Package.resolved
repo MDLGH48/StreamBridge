@@ -1,0 +1,15 @@
+{
+  "originHash" : "081aeedaacace817909ba08f1d623a3812a31410142e31dce1ee879aa83373ae",
+  "pins" : [
+    {
+      "identity" : "objectbox-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/objectbox/objectbox-swift.git",
+      "state" : {
+        "revision" : "58905abbea90298940d58d349c001a15f10f7200",
+        "version" : "1.9.2"
+      }
+    }
+  ],
+  "version" : 3
+}
