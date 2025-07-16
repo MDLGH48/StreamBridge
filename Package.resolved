@@ -1,0 +1,24 @@
+{
+  "originHash" : "a2b88931157c3102eb6d8a75779faacf85b3aeba6f27c9faf02360953b699bf5",
+  "pins" : [
+    {
+      "identity" : "objectbox-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/objectbox/objectbox-swift.git",
+      "state" : {
+        "revision" : "ce72f03639fe187b1aa1fc84b6dbba4f4dc9ee0d",
+        "version" : "4.4.0"
+      }
+    },
+    {
+      "identity" : "runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wickwirew/Runtime",
+      "state" : {
+        "revision" : "b90e9ab1c66a964a9edf32fe38ea2774c0e5821b",
+        "version" : "2.2.7"
+      }
+    }
+  ],
+  "version" : 3
+}
