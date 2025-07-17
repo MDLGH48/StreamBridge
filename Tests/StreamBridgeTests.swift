@@ -23,6 +23,13 @@ struct ActorState {
     var current: String
 }
 
+@Test func testObjectBoxTypeMapping() {
+    assert(toOboxType(String.self) == .string)
+    assert(toOboxType(Int.self) == .long)
+    assert(toOboxType(Bool.self) == .bool)
+    assert(toOboxType(Data.self) == .byteVector)
+}
+
 @Test func testTypeRegistryBuilder() async throws {
     let fixtures = Fixtures()
     let structSig: ObjectAnnotation = ObjectAnnotation.build(ActorState.self)

@@ -1,12 +1,12 @@
 {
-  "originHash" : "a2b88931157c3102eb6d8a75779faacf85b3aeba6f27c9faf02360953b699bf5",
+  "originHash" : "f8841f5084cc1bc0ca89d2ceea841426f101a34de952e10ae9463a174937d2cb",
   "pins" : [
     {
-      "identity" : "objectbox-swift",
+      "identity" : "objectbox-swift-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/objectbox/objectbox-swift.git",
+      "location" : "https://github.com/objectbox/objectbox-swift-spm.git",
       "state" : {
-        "revision" : "ce72f03639fe187b1aa1fc84b6dbba4f4dc9ee0d",
+        "revision" : "58116eabfb2b70003fb355e7859e3e9c99cded13",
         "version" : "4.4.0"
       }
     },
